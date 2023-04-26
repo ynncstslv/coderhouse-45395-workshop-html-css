@@ -275,3 +275,53 @@ header {
 .subscribe-container span {
 	text-decoration: underline;
 }
+
+.section-conteiner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	width: 60% auto;
+	margin: 50px 0;
+	font-family: "Merriweather", serif;
+}
+
+.section-image{
+	width: 250px;
+}
+
+.section-image img {
+	width: 250px;
+	height: 350px;
+}
+
+.conteiner-com p {
+	font-size: 10px;
+}
+
+.time-conteiner {
+	display: flex;
+	justify-content:start ;
+	align-items: center;
+	gap: 20px;
+}
+
+.conteiner-com {
+	display: flex;
+	justify-content: left;
+	padding: 5px 0;
+	margin-left: 2px;
+}
+
+.conteiner-com i {
+	display: flex;
+	justify-content: left;
+	font-size: 10px;
+	margin-right: 5px;
+}
+.baked-conteiner{
+	width: 100%;
+	font-size: 18px;
+	font-weight: 600;
+}
+
