@@ -330,8 +330,106 @@ input::placeholder {
 	margin-left: 0.3rem;
 }
 
-/* media queries */
+.footer-conteiner {
+	display: flex;
+	align-content: center;
+	margin: 0;
+	border-top: gray solid 1px;
+	background-color: gray;
+}
 
+.footer-section{
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+}
+
+.footer-header h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+	letter-spacing: 0.2rem;
+}
+
+.footer-header h4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.footer-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.footer-text{
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.social-midia-conteiner ul{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	gap: 30px;
+	font-size: 20px;
+	text-decoration: none;
+	color: inherit;
+}
+
+.social-midia-conteiner a {
+	color: #000;
+}
+
+.footer-end{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.footer-end-div i{
+	font-size: 12px;
+}
+
+.footer-end-div p{
+	font-size: 12px;
+}
+
+.footer-end-div{
+	display: flex;
+	align-items:center;
+	gap: 10px;
+	margin-left: 60px;
+}
+
+.footer-nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+	margin-right: 60px;
+	height: 40px;
+	color: inherit
+}
+
+.footer-nav a {
+	color: #000;
+}
+
+.footer-nav a:hover {
+	color: #000;
+	font-weight: bolder;
+	transition: var(--transition);
+}
+
+	/* media queries */
+	
 @media screen and (max-width: 1650px) {
 	.header-wrapper {
 		gap: 10rem;
