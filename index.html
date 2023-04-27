@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,6 +12,7 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
+		<link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
 		<title>Easy Meals | Receitas Deliciosas</title>
 	</head>
 	<body>
@@ -30,15 +31,15 @@
 		</nav>
 		<header>
 			<div class="container header-container">
-				<div class="wrapper">
-					<div></div>
+				<div class="header-wrapper">
+					<div class="divider"></div>
 					<div class="header-info">
 						<div class="header-time-tips">
-							<div class="header-time">
+							<div class="header-time-tips-wrap">
 								<i class="fa-solid fa-video"></i>
 								<h5>2:35</h5>
 							</div>
-							<div class="header-tips">
+							<div class="header-time-tips-wrap">
 								<i class="fa-solid fa-tag"></i>
 								<h5>TIPS & TRICKS</h5>
 							</div>
@@ -49,6 +50,9 @@
 							tempore. Quae debitis quaerat cumque sit consectetur cupiditate
 							asperiores, et reiciendis! Nulla iste nisi nobis. Iure.
 						</p>
+						<a class="header-link" href="#"
+							>Read More <i class="fa-solid fa-arrow-up-right-from-square"></i
+						></a>
 						<div class="header-post">
 							<div class="header-post-user">
 								<img src="./assets/profile-recipe.jpg" alt="Profile Picture" />
@@ -65,83 +69,102 @@
 		<section class="subscribe">
 			<div class="container subscribe-container">
 				<h3>Get Our <span>Free</span> Cookbook Today!</h3>
-				<div class="input-div">
+				<div class="subscribe-input">
 					<input type="text" placeholder="Your name*" required />
-					<input type="text" placeholder="Your email*" required />
+					<input type="email" placeholder="Your email*" required />
 					<button class="btn">SUBSCRIBE</button>
 				</div>
 			</div>
 		</section>
-
-		<section class="section-conteiner">
-			<article class="section-image">
-				<img src="./assets/food_01.jpg" alt="XXXXXX">
-				<div class="time-conteiner">
-					<div class="conteiner-com">
-						<i class="fa-regular fa-clock"></i>
-						<p>30 MINUTES</p>
+		<section class="recipes">
+			<div class="container recipes-container">
+				<article class="recipe-card">
+					<div class="recipe-img">
+						<img src="./assets/recipe-01.jpg" alt="Croissant" />
 					</div>
-					<div class="conteiner-com">
-						<i class="fa-regular fa-thumbs-up"></i>
-						<p>SUPER EASY</p>
+					<div class="recipe-time-dif">
+						<div class="recipe-time-dif-wrap">
+							<i class="fa-regular fa-clock"></i>
+							<h5>30 MINUTES</h5>
+						</div>
+						<div class="recipe-time-dif-wrap">
+							<i class="fa-regular fa-thumbs-up"></i>
+							<h5>SUPER EASY</h5>
+						</div>
 					</div>
-				</div>
-				<div class="baked-conteiner">
-					<p>Baked sweet potatoes with creamy avocado $ pumpkin</p>
-				</div>					
-			</article>
-		
-			<article class="section-image">
-				<img src="./assets/food_02.jpg" alt="XXXXXX">
-				<div class="time-conteiner">
-					<div class="conteiner-com">
-						<i class="fa-regular fa-clock"></i>
-						<p>30 MINUTES</p>
+					<div class="recipe-title">
+						<h2>Baked sweet potatoes with creamy avocado & pumpkin</h2>
 					</div>
-					<div class="conteiner-com">
-						<i class="fa-regular fa-thumbs-up"></i>
-						<p>SUPER EASY</p>
+					<a class="recipe-link" href="#"
+						>View Recipe <i class="fa-solid fa-arrow-up-right-from-square"></i
+					></a>
+				</article>
+				<article class="recipe-card">
+					<div class="recipe-img">
+						<img src="./assets/recipe-02.jpg" alt="Donuts" />
 					</div>
-				</div>
-				<div class="baked-conteiner">
-					<p>Baked sweet potatoes with creamy avocado $ pumpkin</p>
-				</div>					
-			</article>
-		
-			<article class="section-image">
-				<img src="./assets/food_03_resized.jpg" alt="XXXXXX">
-				<div class="time-conteiner">
-					<div class="conteiner-com">
-						<i class="fa-regular fa-clock"></i>
-						<p>30 MINUTES</p>
+					<div class="recipe-time-dif">
+						<div class="recipe-time-dif-wrap">
+							<i class="fa-regular fa-clock"></i>
+							<h5>30 MINUTES</h5>
+						</div>
+						<div class="recipe-time-dif-wrap">
+							<i class="fa-regular fa-thumbs-up"></i>
+							<h5>SUPER EASY</h5>
+						</div>
 					</div>
-					<div class="conteiner-com">
-						<i class="fa-regular fa-thumbs-up"></i>
-						<p>SUPER EASY</p>
+					<div class="recipe-title">
+						<h2>Baked sweet potatoes with creamy avocado & pumpkin</h2>
 					</div>
-				</div>
-				<div class="baked-conteiner">
-					<p>Baked sweet potatoes with creamy avocado $ pumpkin</p>
-				</div>					
-			</article>
-		
-			<article class="section-image">
-				<img src="./assets/food_04.jpg" alt="XXXXXX">
-				<div class="time-conteiner">
-					<div class="conteiner-com">
-						<i class="fa-regular fa-clock"></i>
-						<p>30 MINUTES</p>
+					<a class="recipe-link" href="#"
+						>View Recipe <i class="fa-solid fa-arrow-up-right-from-square"></i
+					></a>
+				</article>
+				<article class="recipe-card">
+					<div class="recipe-img">
+						<img src="./assets/recipe-03.jpg" alt="Burger" />
 					</div>
-					<div class="conteiner-com">
-						<i class="fa-regular fa-thumbs-up"></i>
-						<p>SUPER EASY</p>
+					<div class="recipe-time-dif">
+						<div class="recipe-time-dif-wrap">
+							<i class="fa-regular fa-clock"></i>
+							<h5>30 MINUTES</h5>
+						</div>
+						<div class="recipe-time-dif-wrap">
+							<i class="fa-regular fa-thumbs-up"></i>
+							<h5>SUPER EASY</h5>
+						</div>
 					</div>
-				</div>
-				<div class="baked-conteiner">
-					<p>Baked sweet potatoes with creamy avocado $ pumpkin</p>
-				</div>					
-			</article>
-
+					<div class="recipe-title">
+						<h2>Baked sweet potatoes with creamy avocado & pumpkin</h2>
+					</div>
+					<a class="recipe-link" href="#"
+						>View Recipe <i class="fa-solid fa-arrow-up-right-from-square"></i
+					></a>
+				</article>
+				<article class="recipe-card">
+					<div class="recipe-img">
+						<img src="./assets/recipe-04.jpg" alt="Smoothie" />
+					</div>
+					<div class="recipe-time-dif">
+						<div class="recipe-time-dif-wrap">
+							<i class="fa-regular fa-clock"></i>
+							<h5>30 MINUTES</h5>
+						</div>
+						<div class="recipe-time-dif-wrap">
+							<i class="fa-regular fa-thumbs-up"></i>
+							<h5>SUPER EASY</h5>
+						</div>
+					</div>
+					<div class="recipe-title">
+						<h2>Baked sweet potatoes with creamy avocado & pumpkin</h2>
+					</div>
+					<a class="recipe-link" href="#"
+						>View Recipe <i class="fa-solid fa-arrow-up-right-from-square"></i
+					></a>
+				</article>
+			</div>
+		</section>
+		<!-- javascript -->
 		<script src="./scripts/script.js"></script>
 	</body>
 </html>
